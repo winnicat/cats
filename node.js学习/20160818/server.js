@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
   //发送HTTP头部
   //HTTP 状态值： 200：ok
   //内容类型: text/plain
-
+  console.log('Request recevied');
   response.writeHead(200, {'Content-Type': 'text/plain'});
 
   //发送响应数据“Hello World”
